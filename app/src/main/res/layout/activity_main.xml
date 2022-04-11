@@ -9,12 +9,11 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageView4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="25dp"
-        app:srcCompat="@drawable/moto_racer" />
-
+        app:srcCompat="@drawable/motocross" />
 
     <TextView
         android:id="@+id/textView2"
@@ -81,6 +80,6 @@
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="REGISTRAR" />
 
 </LinearLayout>
