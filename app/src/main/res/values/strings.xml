@@ -3,13 +3,14 @@
     <string name="title_activity_menu_slide3">MenuSlideActivity3</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">RIDE RD</string>
+    <string name="nav_header_subtitle">Bienvenidos al AppRide</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_salir">Salir</string>
 
     <string name="menu_home">Home</string>
     <string name="menu_clientes">Clientes</string>
+    <string name="menu_bateria">Estado de bateria</string>
     <string name="menu_geolocalizacion">Geolocalización</string>
     <string name="menu_recarga">Lugares recarga</string>
     <string name="menu_pagos">Pagos</string>
