@@ -6,6 +6,21 @@
     app:startDestination="@+id/nav_home">
 
     <fragment
+        android:id="@+id/nav_kilometraje"
+        android:name="pe.idat.edu.project.appwebprojectdamv1.ui.kilometraje.Fragment_kilometraje"
+        android:label="@string/menu_kilometraje"
+        tools:layout="@layout/fragment_kilometraje" />
+    <fragment
+        android:id="@+id/nav_pagos"
+        android:name="pe.idat.edu.project.appwebprojectdamv1.ui.pagos.Fragment_pagos"
+        android:label="@string/menu_pagos"
+        tools:layout="@layout/fragment_pagos" />
+    <fragment
+        android:id="@+id/nav_lugaresRecarga"
+        android:name="pe.idat.edu.project.appwebprojectdamv1.ui.lugaresRecarga.Fragment_LugaresRecarga"
+        android:label="@string/menu_recarga"
+        tools:layout="@layout/fragment__lugares_recarga" />
+    <fragment
         android:id="@+id/nav_bateria"
         android:name="pe.idat.edu.project.appwebprojectdamv1.ui.estadoBateria.EstadoBateriaFragment"
         android:label="@string/menu_bateria"
