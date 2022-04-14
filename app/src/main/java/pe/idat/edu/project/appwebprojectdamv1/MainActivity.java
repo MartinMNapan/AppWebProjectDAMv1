@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     Button btning, btnreg;
     BDRide DB;
 
-
+//HOLA MUNDO
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
