@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_bateria"
+            android:icon="@drawable/ic_baseline_battery_charging_full_24"
+            android:title="@string/menu_bateria" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_baseline_account_box_24"
+            android:title="@string/menu_clientes" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_baseline_location_on_24"
+            android:title="@string/menu_geolocalizacion" />
+        <item
+            android:id="@+id/nav_lugaresRecarga"
+            android:icon="@drawable/ic_baseline_ev_station_24"
+            android:title="@string/menu_recarga" />
+        <item
+            android:id="@+id/nav_pagos"
+            android:icon="@drawable/ic_baseline_credit_card_24"
+            android:title="@string/menu_pagos" />
+        <item
+            android:id="@+id/nav_kilometraje"
+            android:icon="@drawable/ic_baseline_access_alarm_24"
+            android:title="@string/menu_kilometraje" />
+    </group>
+</menu>
